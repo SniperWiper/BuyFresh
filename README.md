@@ -8,22 +8,14 @@ A web application for smart fruit shopping, using AI to identify fruits via came
 **Homepage**: Introduction to BuyFresh  
 <img src="images/homepage.png" width="500"/>
 
-<br><br>
-
 **Scanning Page**: Interface for scanning fruits  
 <img src="images/scanning.png" width="500"/>
-
-<br><br>
 
 **Scanning with Fruits**: Fruits detected during scanning  
 <img src="images/scanning_fruits.png" width="500"/>
 
-<br><br>
-
 **Billing Page**: Cart summary with total cost  
 <img src="images/billing.png" width="500"/>
-
-<br><br>
 
 **Cart Update**: Dropdown showing updated cart contents  
 <img src="images/cart_update.png" width="500"/>
