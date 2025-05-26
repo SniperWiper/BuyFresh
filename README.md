@@ -48,7 +48,7 @@ A web application for smart fruit shopping, using AI to identify fruits via came
 ## Installation
 1. Clone repo:
    ```bash
-   git clone <repository-url> && cd buyfresh
+   git clone [<repository-url>](https://github.com/SniperWiper/BuyFresh) && cd buyfresh
    ```
 2. Install Python dependencies:
    ```bash
