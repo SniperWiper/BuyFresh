@@ -1,0 +1,68 @@
+.temp{
+    display: flex;
+    flex-direction: column;
+    height:75vh;
+    align-items: center;
+}
+#scan{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: all 0.3s ease;
+
+}
+
+#upload{
+    display: flex;
+    flex-direction:column;
+    gap: 50px;
+
+}
+#iframeStream {
+    margin-top: 20px;
+    border: none; /* Remove any borders */
+    display: none; /* Hidden by default */
+}
+
+#buttonContainer {
+    margin-top: 0px;
+}
+
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.processing-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.captured-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#cartDropdownMenu {
+    min-width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+}
