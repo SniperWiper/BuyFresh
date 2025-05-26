@@ -4,16 +4,30 @@
 A web application for smart fruit shopping, using AI to identify fruits via camera scanning. Built with Bootstrap for a responsive UI, JavaScript for client-side logic, and a Flask backend with YOLOv8 for fruit detection. Users can scan fruits using a mobile camera stream, add them to a cart, and view billing details.
 
 ## Screenshots
-- **Homepage**: Introduction to BuyFresh
-  ![Homepage](images/homepage.png)
-- **Scanning Page**: Interface for scanning fruits
-  ![Scanning Page](images/scanning.png)
-- **Scanning with Fruits**: Fruits detected during scanning
-  ![Scanning with Fruits](images/scanning_fruits.png)
-- **Billing Page**: Cart summary with total cost
-  ![Billing Page](images/billing.png)
-- **Cart Update**: Dropdown showing updated cart contents
-  ![Cart Update](images/cart_update.png)
+
+**Homepage**: Introduction to BuyFresh  
+<img src="images/homepage.png" width="500"/>
+
+<br><br>
+
+**Scanning Page**: Interface for scanning fruits  
+<img src="images/scanning.png" width="500"/>
+
+<br><br>
+
+**Scanning with Fruits**: Fruits detected during scanning  
+<img src="images/scanning_fruits.png" width="500"/>
+
+<br><br>
+
+**Billing Page**: Cart summary with total cost  
+<img src="images/billing.png" width="500"/>
+
+<br><br>
+
+**Cart Update**: Dropdown showing updated cart contents  
+<img src="images/cart_update.png" width="500"/>
+
 
 ## Features
 - **AI Fruit Scanning**: Identifies fruits using YOLOv8 from a live camera stream.
